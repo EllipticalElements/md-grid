@@ -8,6 +8,12 @@
     column-header[sort=true]{
         cursor:pointer;
     }
+    column-header[sort=true]>.icon-sort{
+        display:block;
+    }
+    column-header.active>.icon-sort{
+        display:none;
+    }
     colun-header[empty] > *{
         display:none;
     }
