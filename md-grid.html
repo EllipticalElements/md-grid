@@ -30,6 +30,7 @@
         },
 
         _setService:function(){
+            if(!this.service) return;
             var self=this;
             this.$serviceAsync(function(service){
                 self._service=service;
